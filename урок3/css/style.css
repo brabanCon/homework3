@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2
+ {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+p{
+    color: red;
+}
+span.space{
+    color: violet;
+}
+span.country {
+    color: brown;
+}
+a.href{
+    color: lime;
+}
+#stark{
+    color: tomato;
+}
+p.list{
+    color: seagreen;
+}
+#elon{
+    color: black; font-size: 20px;
+}
+li a.href{
+    color: blueviolet; font-size: 20px;
+}
+ol.list{
+    color: red; font-size: 30px;
+}
+span.musk{
+    color: forestgreen; font-size: 20px;
+}
+.history + p{
+    color: black; font-size: 20px;
+}
